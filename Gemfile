@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails',     		       :git => 'git://github.com/rails/rails.git'
-gem 'journey',   		       :git => 'git://github.com/rails/journey.git'
-gem 'arel',      		       :git => 'git://github.com/rails/arel.git', :branch => '3-0-stable'
-gem 'activerecord-deprecated_finders', :git => 'git://github.com/rails/activerecord-deprecated_finders.git'
+gem 'rails',   :git => 'git://github.com/rails/rails.git'
+gem 'journey', :git => 'git://github.com/rails/journey.git'
+gem 'arel',    :git => 'git://github.com/rails/arel.git'
+gem 'activerecord-deprecated_finders', 
+			:git => 'git://github.com/rails/activerecord-deprecated_finders.git'
 gem 'sqlite3'
-
+gem 'mysql2'
+gem 'rspec'
+gem 'haml'
 
 # Gems used only for assets and not required
 # in production environments by default.
