@@ -1,18 +1,22 @@
 .row
   .span3
-    %h1.well
-      Menu Bar on the Left
-
-  .span9
-    %h1.well
-      What is it?
-    =render 'what'
-
-
-    %h1.well
-      Why should I join?
-    =render 'why'
+    =render 'left_nav'
       
-    %h1.well
-      Does it cost anything?
-    =render 'cost'
+  .span9
+    #what
+      %h1
+        What is it?
+      .well
+        =render 'what'
+
+    #why
+      %h1
+        Why should I join?
+      .well
+        =render 'why'
+            
+    #cost  
+      %h1
+        Does it cost anything?
+      .well
+        =render 'cost'
